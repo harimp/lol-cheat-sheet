@@ -1,0 +1,12 @@
+{
+    "extends": "airbnb-base",
+    "plugins": [
+        "import"
+    ],
+    "rules" : {
+      "no-unused-vars" : ["error", {"vars": "local", "args": "none"}],
+      "no-cond-assign": [2, "except-parens"],
+      "arrow-body-style": "off",
+      "no-param-reassign": "off"
+    }
+}
